@@ -18,8 +18,8 @@ app.get("/La_Beauties.woff2", function (req, res) {
 });
 
 // Serve the custom font file
-app.get("/Mongolia_Regular.woff2", function (req, res) {
-  res.sendFile(path.join(__dirname, "La_Beauties.woff2"));
+app.get("/Magnolia_Regular.woff2", function (req, res) {
+  res.sendFile(path.join(__dirname, "Magnolia_Regular.woff2"));
 });
 
 // Start the server
